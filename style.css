@@ -84,10 +84,22 @@ a{
     display: flex;
 }
 
+/* I need to correct the box area*/
+
 .responsive {
        margin: 100px 0px 80px 120px;
        width: 100%;
        max-width: 350px;
        height: 200px;
    }
-
+.box{
+    display : grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 260px;
+    grid-column-gap: 20px;
+    margin: auto;
+}
+img{
+    width: 250px;
+    height: auto;
+}
