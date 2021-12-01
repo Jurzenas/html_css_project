@@ -108,3 +108,29 @@ img{
     width: 250px;
     height: auto;
 }
+
+#quote-section {
+    width: 100%;
+    background-color: #E5E7EB;
+}
+.text-block {
+    width: 65%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.quote-text {
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
